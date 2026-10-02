@@ -7,7 +7,11 @@
     <groupId>com.example</groupId>
     <artifactId>Web-Dev</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>  <!-- Ensures Maven generates a .war file for Tomcat -->
+    <packaging>war</packaging>
 
-    ...
+    <name>Web-Dev</name>
+
+    <build>
+        <finalName>Web-Dev</finalName>
+    </build>
 </project>
