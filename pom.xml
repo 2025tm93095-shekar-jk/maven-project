@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>Web-Dev</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>  <!-- Ensures Maven generates a .war file for Tomcat -->
 
-    <!-- Triggering Jenkins SCM Poll test -->
-
+    ...
 </project>
